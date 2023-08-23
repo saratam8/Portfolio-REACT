@@ -24,15 +24,16 @@ export default function PortfolioContainer() {
         if (currentPage === 'Resume') {
             return <Resume />;
         }
-        return <Contact />;
+        return <About />;
     };
 
     const handlePageChange = (page) => setPage(page);
 
     return (
         <div>
-          <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-          {renderPage()}
+            <Header />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
         </div>
       );
 }
