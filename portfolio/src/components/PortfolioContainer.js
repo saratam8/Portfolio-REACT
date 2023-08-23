@@ -9,31 +9,9 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
-    const [currentPage, setPage] = useState('About');
-
-    const renderPage = () => {
-        if (currentPage === 'About') {
-            return <About />;
-        }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
-        }
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        return <About />;
-    };
-
-    const handlePageChange = (page) => setPage(page);
-
     return (
         <div>
             <Header />
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
         </div>
       );
 }
