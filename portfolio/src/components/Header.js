@@ -5,6 +5,15 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
+const styles = {
+    header: {
+        background: "#ffb770",
+    },
+    nav: {
+        background: "#ffb770",
+    },
+};
+
 function Header() {
     const [currentPage, setPage] = useState('About');
 
@@ -27,11 +36,13 @@ function Header() {
     const handlePageChange = (page) => setPage(page);
 
     return (
-        <header>
-            <h1>Sara Tam</h1>
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-        </header>
+        <div style={styles.header}>
+            <header>
+                <h1>Sara Tam</h1>
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+                {renderPage()}
+            </header>
+        </div>
     );
 }
 

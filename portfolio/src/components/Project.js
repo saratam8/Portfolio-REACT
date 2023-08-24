@@ -39,7 +39,7 @@ function Project() {
             <h1>Projects:</h1>
             <ul className="row">
                 {projects.map((project) => (
-                    <a href={project.url} className="col-6">
+                    <a href={project.url} className="col-6" target="_blank">
                         <img src={project.imgsrc} alt={project.name} className="img-fluid img-thumbnail" ></img>
                     </a>
                 ))}
