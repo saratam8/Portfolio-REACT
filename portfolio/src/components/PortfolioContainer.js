@@ -10,7 +10,7 @@ import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
     return (
-        <div>
+        <div className="m-4">
             <Header />
         </div>
       );

@@ -4,12 +4,12 @@ const projects = [
     {
         name: 'MongoDB - Socializing Hermit',
         url: 'https://github.com/saratam8/Socializing-Hermit',
-        imgsrc: './images/flower.jpg',
+        imgsrc: './images/Socializing Hermit.PNG',
     },
     {
         name: 'mySQL - Employee Tracker',
         url: 'https://github.com/saratam8/SQL-Employee-Tracker',
-        imgsrc: './images/flower.jpg',
+        imgsrc: './images/Employee Tracker.PNG',
     },
     {
         name: 'Zen4You',
@@ -19,7 +19,7 @@ const projects = [
     {
         name: 'RecipeDB',
         url: 'https://github.com/recipe-db-chicago-chefs/Project2',
-        imgsrc: './images/flower.jpg',
+        imgsrc: './images/recipeDB.png',
     },
     {
         name: 'Weather Dashboard',
@@ -36,7 +36,7 @@ const projects = [
 function Project() {
     return (
         <div className="container">
-            <h1>Projects:</h1>
+            <h1 className="py-2">Projects:</h1>
             <ul className="row">
                 {projects.map((project) => (
                     <a href={project.url} className="col-6" target="_blank">

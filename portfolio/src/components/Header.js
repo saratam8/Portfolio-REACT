@@ -36,12 +36,10 @@ function Header() {
     const handlePageChange = (page) => setPage(page);
 
     return (
-        <div style={styles.header}>
-            <header>
-                <h1>Sara Tam</h1>
-                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-                {renderPage()}
-            </header>
+        <div >
+            <h1 className="text-center">Sara Tam</h1>
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
         </div>
     );
 }

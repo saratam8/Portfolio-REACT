@@ -1,5 +1,12 @@
 import React from 'react';
 
+const styles = {
+    active: {
+        textColor: '#adf7b6',
+        background: '#fcf5c7'
+    }
+}
+
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <ul className="nav nav-pills nav-justified">
