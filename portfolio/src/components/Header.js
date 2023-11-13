@@ -37,7 +37,7 @@ function Header() {
 
     return (
         <div >
-            <h1 className="text-center">Sara Tam</h1>
+            <h1 className="justify-content-center d-flex">Sara Tam</h1>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>
