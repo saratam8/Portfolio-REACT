@@ -8,9 +8,15 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
+const styles = {
+    page: {
+        backgroundColor: '#e9edc9',
+    },
+}
+
 export default function PortfolioContainer() {
     return (
-        <div className="m-4">
+        <div>
             <Header />
         </div>
       );

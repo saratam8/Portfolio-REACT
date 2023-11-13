@@ -13,7 +13,7 @@ export default function About() {
         <div>
             <h1 className="py-2">About Me</h1>
             <div className="row">
-                <img className="rounded col" style={styles.img} src="/images/profile.jpeg" alt="Profile Picture" />
+                <img className="rounded col" style={styles.img} src="./images/profile.jpeg" alt="Profile Picture" />
                 <p className="py-4 col">
                     I have a Bachelor's of Science in Electrical Engineering from University of Illinois at Chicago. I am currently an Electrical Engineer at Northrop Grumman with a variety of experience in Systems Engineering, Software and Hardware. 
 
