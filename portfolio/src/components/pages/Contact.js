@@ -3,10 +3,9 @@ import Footer from "../Footer";
 
 export default function Contact() {
     return (
-        <div className="m-3">
-            <h1 className="py-2">Contact</h1>
+        <div className="container">
+            <h1>Contact</h1>
             <p>Email: stam296@gmail.com</p>
-            <p>Phone Number: 312-714-9100</p>
             <form>
                 <div className="form-group">
                     <label for="inputName">Name</label>
