@@ -17,34 +17,35 @@ const styles = {
 
 const projects = [
     {
+        name: 'Ullr\'s Tavern',
+        url: 'https://ullrs-tavern-project-fb351eedb115.herokuapp.com/',
+        imgsrc: './images/Ullrs Tavern.png',
+
+    },
+    {
         name: 'Zen4You',
-        url: 'https://github.com/Project01Team03/Zen4You',
+        url: 'https://saratam8.github.io/Zen4You/index.html',
         imgsrc: './images/Zen4You.png',
     },
     {
         name: 'Weather Dashboard',
-        url: 'https://github.com/saratam8/Weather-Dashboard-Application',
+        url: 'https://saratam8.github.io/Weather-Dashboard-Application/',
         imgsrc: './images/Weather Dashboard.png',
     },
     {
         name: 'Password Generator',
-        url: 'https://github.com/saratam8/Password-Generator',
+        url: 'https://saratam8.github.io/Password-Generator/',
         imgsrc: './images/Password Generator.png',
     },
     {
         name: 'RecipeDB',
-        url: 'https://github.com/recipe-db-chicago-chefs/Project2',
+        url: 'https://recipe-db-ca6c65e5eb24.herokuapp.com/login',
         imgsrc: './images/recipeDB.png',
     },
     {
         name: 'MongoDB - Socializing Hermit',
         url: 'https://github.com/saratam8/Socializing-Hermit',
         imgsrc: './images/Socializing Hermit.PNG',
-    },
-    {
-        name: 'mySQL - Employee Tracker',
-        url: 'https://github.com/saratam8/SQL-Employee-Tracker',
-        imgsrc: './images/Employee Tracker.PNG',
     },
 ]
 
