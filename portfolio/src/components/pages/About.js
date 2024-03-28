@@ -17,7 +17,7 @@ export default function About() {
                 <p className="col text-wrap">
                     I have a Bachelor's of Science in Electrical Engineering from University of Illinois at Chicago. I am currently an Electrical Engineer at Northrop Grumman with a variety of experience in Systems Engineering, Software and Hardware. 
 
-                    I am currently a student at the Northwestern Coding Bootcamp and seeking a career in web development.
+                    I am graduated from the Northwestern Coding Bootcamp and currently seeking a career in software development.
                 </p>
             </div>
             <Footer />
